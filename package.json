@@ -1,0 +1,55 @@
+{
+  "_from": "jobu-karendaa@^1.1.2",
+  "_id": "jobu-karendaa@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha1-vd9u1sqYMKy6eOF8pMrpuj1JZ4w=",
+  "_location": "/jobu-karendaa",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "jobu-karendaa@^1.1.2",
+    "name": "jobu-karendaa",
+    "escapedName": "jobu-karendaa",
+    "rawSpec": "^1.1.2",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://npm.stoooc.com/jobu-karendaa/-/jobu-karendaa-1.1.2.tgz",
+  "_shasum": "bddf6ed6ca9830acba78e17ca4cae9ba3d49678c",
+  "_spec": "jobu-karendaa@^1.1.2",
+  "_where": "C:\\Users\\super\\Documents\\Projects\\HiDESIGNS\\HiDESIGNS HR Client",
+  "author": {
+    "name": "Kevin Ngo"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "moment": "^2.17.1",
+    "moment-timezone": "^0.5.11"
+  },
+  "deprecated": false,
+  "description": "A package to help standardize the job calendar for HiDESIGNS.",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0"
+  },
+  "keywords": [
+    "job",
+    "calendar",
+    "HiDESIGNS"
+  ],
+  "license": "WTFPL",
+  "main": "jobu-karendaa.js",
+  "name": "jobu-karendaa",
+  "publishConfig": {
+    "registry": "https://npm.stoooc.com"
+  },
+  "scripts": {
+    "build": "babel src/jobu-karendaa.js -o jobu-karendaa.js --minified --no-comments",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.2"
+}
