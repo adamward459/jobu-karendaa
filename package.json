@@ -17,7 +17,7 @@
   ],
   "license": "WTFPL",
   "main": "jobu-karendaa.js",
-  "name": "jobu-karendaa",
+  "name": "@adamward459/jobu-karendaa",
   "scripts": {
     "build": "babel src/jobu-karendaa.js -o jobu-karendaa.js --minified --no-comments",
     "test": "echo \"Error: no test specified\" && exit 1"
